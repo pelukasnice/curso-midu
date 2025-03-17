@@ -8,15 +8,15 @@ export function App() {
     return (
         <section className='App'>
 
-            <TwitterFollowCard formatUserName={format} isFollowing userName="midudev">
+            <TwitterFollowCard formatUserName={format}  userName="midudev">
                 Miguel Angel Duran
             </TwitterFollowCard>
 
-            <TwitterFollowCard formatUserName={format} isFollowing={false} userName="Donald_Trump">
+            <TwitterFollowCard formatUserName={format}  userName="Donald_Trump">
                 Donad Trump
             </TwitterFollowCard>
 
-            <TwitterFollowCard formatUserName={format} isFollowing userName="ElonMusk">
+            <TwitterFollowCard formatUserName={format}  userName="ElonMusk">
                 Elon Musk
             </TwitterFollowCard>
         </section>
